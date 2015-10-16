@@ -1,4 +1,4 @@
-package com.pivotxstudios.thirtysecondchallenge;
+package com.pivotxstudios.thirtysecondchallenge.model;
 
 public class Config {
 

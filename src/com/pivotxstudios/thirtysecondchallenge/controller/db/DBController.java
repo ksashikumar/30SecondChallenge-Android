@@ -1,6 +1,6 @@
 package com.pivotxstudios.thirtysecondchallenge.controller.db;
 
-import com.pivotxstudios.thirtysecondchallenge.Config;
+import com.pivotxstudios.thirtysecondchallenge.model.Config;
 
 import android.content.ContentValues;
 import android.content.Context;
