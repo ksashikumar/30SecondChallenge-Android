@@ -1,4 +1,4 @@
-package com.pivotxstudios.thirtysecondchallenge.db;
+package com.pivotxstudios.thirtysecondchallenge.controller.db;
 
 import com.pivotxstudios.thirtysecondchallenge.Config;
 
@@ -8,7 +8,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-public class DBHandler extends SQLiteOpenHelper {
+public class DBController extends SQLiteOpenHelper {
 
     private static final int DB_VERSION = 1;
     private static final String DB_NAME = "TSCDB";
@@ -40,7 +40,7 @@ public class DBHandler extends SQLiteOpenHelper {
 
     private int vibrate_state = -1;
 
-    public DBHandler(Context context) {
+    public DBController(Context context) {
         super(context, DB_NAME, null, DB_VERSION);
     }
 
